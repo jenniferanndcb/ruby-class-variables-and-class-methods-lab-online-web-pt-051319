@@ -31,7 +31,7 @@ class Song
     #iterate through @@genres array - return new array of genres as keys in the array 
     
     
-    genre_count = Hash.new(0)
+    genre_count = {}
       @@genres.each {|genre| genre_count[genre] +=1} 
       genre_count
       end 
