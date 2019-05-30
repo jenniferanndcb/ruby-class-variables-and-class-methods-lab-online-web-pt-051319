@@ -29,7 +29,7 @@ class Song
     #create empty hash {@@genres => number of song names with that genre} e.g {"rap" => 5, "rock" => 1, "country" => 3}
     #set counter 
     #iterate through @@genres array - return new array of genres as keys in the array 
-    #use @name?
+    #use @name? check genre for song name and add to counter
     
     
   end
