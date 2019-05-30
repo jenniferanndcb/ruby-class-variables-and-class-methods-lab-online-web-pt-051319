@@ -31,7 +31,7 @@ class Song
     #iterate through @@genres array - return new array of genres as keys in the array 
     #use @name? check genre for song name and add to counter
     
-    genre_count = hash.new[0]
+    genre_count = Hash.new(0)
     
     
     
