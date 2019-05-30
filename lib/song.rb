@@ -26,17 +26,13 @@ class Song
   end
   
   def self.genre_count 
-    #create empty hash {@@genres => number of song names with that genre} e.g {"rap" => 5, "rock" => 1, "country" => 3}
-    #set counter 
-    #iterate through @@genres array - return new array of genres as keys in the array 
-    
-    
     genre_count = {}
-      @@genres.each {|genre| 
-        genre_count[genre] = @@genre.count(genre)} 
-      end 
-    genre_count
-    end
+    
+    @@genres.each {|genre| 
+      genre_count[genre] = @@genre.count(genre)} 
+    end 
+  genre_count
+  end
     
  
     
