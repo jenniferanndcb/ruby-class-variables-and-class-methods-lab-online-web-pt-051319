@@ -33,7 +33,7 @@ class Song
     
     genre_count = {}
       @@genres.each {|genre| 
-        genre_count[genre] = @@genre.count} 
+        genre_count[genre] = @@genre.count(genre)} 
       genre_count
       end 
     end
